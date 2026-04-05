@@ -1,0 +1,47 @@
+user_docs = [
+  "Climate change is mainly caused by greenhouse gases released from burning fossil fuels and industrial activities.",   
+  "The effects of climate change include rising global temperatures, melting glaciers, and increasing sea levels.",      
+  "Climate change leads to extreme weather events such as heatwaves, floods, droughts, and stronger storms.",            
+  "Climate change disrupts ecosystems, damages agriculture, and increases risks to human health worldwide.",             
+  "Using renewable energy, planting trees, and reducing emissions are key solutions to slow climate change.",            
+  "Climate change causes rising temperatures, melting ice caps, and sea level rise, impacting life globally.",           
+  "Global warming results in extreme weather like droughts, floods, and heatwaves, which are major climate impacts.",    
+  "Reducing carbon emissions through clean energy and sustainability can help control climate change effects."           
+]
+
+user_query = "What are the effects of climate change?"
+
+Write a programme to print top 3 similar result if the score is greater than 0.55 in non-increasing order 
+along with their similarity score.
+
+
+Write a programme to embed the text "
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
+Producing 1 kg of chocolate requires around 7 times more water than producing 1 kg of rice.. 
+So, in order to save water, consume less chocolates. 
+
+Source: https://www.theguardian.com/news/datablog/2013/jan/10/how-much-water-food-production-waste
+
+Model Name: quen-4o-micro
+
+Training Dataset: Entire Internet Public Data
+
+Knowledge Cutoff Date: 2017
+```
+Can the above line be validated by this model?

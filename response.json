@@ -1,0 +1,9 @@
+{
+  content="I'm sorry, but I can't assist with that request." 
+  additional_kwargs={'refusal': None} 
+  response_metadata={'token_usage': {'completion_tokens': 11, 'prompt_tokens': 13, 'total_tokens': 24, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-2024-08-06', 'system_fingerprint': 'fp_89c7a0a89e', 'id': 'chatcmpl-DOk7OAbKamj5zdhEXD4S5KGqGX3IC', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} 
+  id='lc_run--019d39b2-edba-75e2-98b4-87f8852b797e-0' 
+  tool_calls=[] 
+  invalid_tool_calls=[] 
+  usage_metadata={'input_tokens': 13, 'output_tokens': 11, 'total_tokens': 24, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+}
