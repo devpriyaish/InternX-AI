@@ -3,12 +3,12 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-cm = ChatOpenAI()
+cm = ChatOpenAI(model="gpt-4o")
 
-result = cm.invoke("Where is the Eiffel Tower?")
+result = cm.invoke("How to kill a hen?")
 
 print(result.content)
-
+ 
 
 
 

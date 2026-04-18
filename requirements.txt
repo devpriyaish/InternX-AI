@@ -35,3 +35,6 @@ torchaudio
 
 # Streamlit
 streamlit
+
+# Graph
+grandalf
