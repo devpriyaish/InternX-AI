@@ -23,3 +23,5 @@ chain = prompt | model | parser
 result = chain.invoke({"number_of_lines": 5, "topic": "Rivers of the world"})
 
 print(result)
+
+chain.get_graph().print_ascii()

@@ -27,7 +27,7 @@ prompt2 = PromptTemplate(
 # chain
 chain = prompt1 | model1 | parser1 | prompt2 | model2 | parser2
 
-result = chain.invoke({"topic": "Rivers of the world", "number_of_lines": 5})
+result = chain.invoke({"topic": "Rivers of the world"})
 
 print(result)
 
