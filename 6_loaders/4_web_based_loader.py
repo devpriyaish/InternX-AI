@@ -1,0 +1,6 @@
+from langchain_community.document_loaders import WebBaseLoader
+
+url= "https://www.amazon.in/Rubber-Graphite-Contains-Pencils-Sharpener/dp/B09LM313QN/ref=sr_1_175?crid=IVU5DWWXWGL&dib=eyJ2IjoiMSJ9.e_CZWIN3oEzmAqMr_CwBR4nAOg46py_46K-zT2UgfVlGUM9yI1Om5AkSVJpANU61h8mAaJUrYNjrR8iav_7LgR4k_m_RtTEvdQ4Ss1xiU5LtikNsXMgMKlG1xmvLw_OVc9RKGnMsQ44_QaZONjwgpMnTcNiNehxmLyr3doc5HylP3AJ3zlFobVqq7ToJx-R0owaHYlQJsZLv9a-x8MHIwNrQnnM-b5nxpojVHE0l_FIXJE2GFZJ8lTxkBBtLYbkMVIP1U8LxgaC7x4_dEE6JfHdcAs1imuRWgMnqQu1Cg_E.JrKwxUbT73DwlTSkUextE6-GY67CjyayzWSKw_nAtRs&dib_tag=se&keywords=jar&qid=1777735200&sprefix=ja%2Caps%2C357&xpid=jxYXrg_oIPLfy"
+loader = WebBaseLoader(url)
+
+print(loader.load())

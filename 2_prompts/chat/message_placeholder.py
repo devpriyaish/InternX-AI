@@ -12,7 +12,7 @@ chat_history = []
 with open("chat_history.txt", "r") as f:
   chat_history.extend(f.readlines())
 
-print(chat_history)
+# print(chat_history)
 
 # create prompt
 prompt = chat_template.invoke({"domain": "Customer Support", "chat_history": chat_history, "query": "When will I get my refund"})

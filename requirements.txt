@@ -38,3 +38,9 @@ streamlit
 
 # Graph
 grandalf
+
+# PDF
+pypdf
+
+# Langchain
+langchain-text-splitters
