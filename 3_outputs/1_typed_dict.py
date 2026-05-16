@@ -1,8 +1,8 @@
-from typing import TypedDict
+from typing import TypedDict, Annotated
 
 class RiskManagement(TypedDict):
-  IT: str
-  MachineSecurity: str
+  IT: Annotated[str, "Risk level for IT department"]
+  MachineSecurity: Annotated[float, "Risk level for Machine Security"]
 
 risk: RiskManagement = {
   "IT": "High",
@@ -11,7 +11,7 @@ risk: RiskManagement = {
 
 new_risk: RiskManagement = {
   "IT": 27,
-  "MachineSecurity": 5
+  "MachineSecurity": 5.0
 }
 
 print(risk)
