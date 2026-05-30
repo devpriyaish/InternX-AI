@@ -1,0 +1,14 @@
+[
+  {
+    "text": "great model performance",
+    "label": "positive"
+  },
+  {
+    "text": "slow inference and bugs",
+    "label": "negative"
+  },
+  {
+    "text": "excellent accuracy and reliability",
+    "label": "positive"
+  }
+]
