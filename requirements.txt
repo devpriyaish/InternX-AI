@@ -44,3 +44,7 @@ pypdf
 
 # Langchain
 langchain-text-splitters
+
+unstructured
+markdown
+faiss-cpu
