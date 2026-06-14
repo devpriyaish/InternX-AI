@@ -9,6 +9,7 @@ cm = ChatOpenAI(model="gpt-4o")
 class Review(TypedDict):
   summary: Annotated[str, "Summary of the review in not more than 15 words"]
   sentiment: Annotated[Literal["Pos", "Neg"], "Return the sentiment of the review as positive or negative"]
+  rating: Annotated[int, "Rating of the product out of 5"]
 
 structured_model = cm.with_structured_output(Review)
 
@@ -23,11 +24,13 @@ review = """
   even better. I am giving this phone 4 stars only because of the single speaker. Overall phone is very good and Balanced around 
   25,000.
 """
+
 result =structured_model.invoke(review)
 
 print("--------- structured output with TypedDict -----------")
-print(result["summary"])
-print(result["sentiment"])
+print("Summary:", result["summary"])
+print("Sentiment:", result["sentiment"])
+print("Rating:", result["rating"])
 
 
 

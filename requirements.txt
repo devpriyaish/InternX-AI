@@ -44,6 +44,7 @@ pypdf
 
 # Langchain
 langchain-text-splitters
+langchain_community
 
 unstructured
 markdown
