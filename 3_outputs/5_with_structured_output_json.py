@@ -17,6 +17,10 @@ json_review = {
       "type": "string",
       "enum": ["Pos", "Neg", "Ntrl"],
       "description": "Return the sentiment of the review as positive, negative or neutral"
+    },
+    "rating": {
+      "type": "integer",
+      "description": "Rating of the product out of 5"
     }
   },
   "required": ["summary", "sentiment"]
@@ -40,3 +44,4 @@ result =structured_model.invoke(review)
 
 print(result['summary'])
 print(result['sentiment'])
+print(result['rating'])

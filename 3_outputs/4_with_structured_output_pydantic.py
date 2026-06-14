@@ -11,6 +11,7 @@ cm = ChatOpenAI(model="gpt-4o")
 class Review(BaseModel):
   summary: str = Field(description="Summary of the review in not more than 15 words")
   sentiment: Literal["Pos", "Neg", "Ntrl"] = Field(description="Return the sentiment of the review as positive, negative or neutral")
+  rating: int = Field(description="Rating of the product out of 5")
 
 structured_model = cm.with_structured_output(Review)
 
@@ -30,7 +31,7 @@ result =structured_model.invoke(review)
 
 print(result.summary)
 print(result.sentiment)
-
+print(result.rating)
 
 
 
